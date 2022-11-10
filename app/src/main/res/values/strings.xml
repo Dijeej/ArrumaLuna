@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ArrumaLuna</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Login Strings -->
+    <string name="login_email">E-mail:</string>
+    <string name="login_email_hint">exemplo@exemplo.com</string>
+    <string name="login_password">Senha:</string>
+    <string name="login_password_hint">********</string>
+    <string name="login_button">Login</string>
+    <string name="login_register">Criar uma conta</string>
+    <string name="login_recover_pass">Esqueceu a senha?</string>
+    <!-- Register Strings -->
+    <string name="register_name">Nome:</string>
+    <string name="register_surname">Sobrenome:</string>
+    <string name="register_email">Email:</string>
+    <string name="register_birth_date">Data de nascimento:</string>
+    <string name="register_gender">Gênero:</string>
+    <string name="register_gender_masc">Masculino</string>
+    <string name="register_gender_fem">Feminino</string>
+    <string name="register_gender_other">Outro</string>
+    <string name="register_password">Senha:</string>
+    <string name="register_confirm_password">Confirme a senha:</string>
+    <string name="register_name_hint">Nome</string>
+    <string name="register_surname_hint">Sobrenome</string>
+    <string name="register_email_hint">exemplo@exemplo.com</string>
+    <string name="register_password_hint">********</string>
+    <string name="register_birth_date_hint">01/01/2000</string>
+    <string name="register_btn_create">Criar conta</string>
+    <string name="register_toolbar_text">Criar Conta</string>
+    <!--Recover Strings -->
+    <string name="recover_toolbar_text">Recuperar Conta</string>
+    <string name="recover_btn_recover">Recuperar</string>
+
+</resources>

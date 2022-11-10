@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "307639969691",
+    "project_id": "arruma-luna",
+    "storage_bucket": "arruma-luna.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307639969691:android:3de89fc8c0f01d433f633e",
+        "android_client_info": {
+          "package_name": "br.ufc.qxd.arrumaluna"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307639969691-udhql037pem7spnnovl1v2j93c3236gs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.ufc.qxd.arrumaluna",
+            "certificate_hash": "ae3ccb440d95a22efe2a4b51e4d3f6658d117f59"
+          }
+        },
+        {
+          "client_id": "307639969691-lds69a6bqc1ademv8m7ir1psocfa18ib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5b14-Dtywx4vaKLcLrbhDUmNnCLYE7kc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307639969691-lds69a6bqc1ademv8m7ir1psocfa18ib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
