@@ -49,5 +49,39 @@
         android:id="@+id/homeFragment"
         android:name="br.ufc.qxd.arrumaluna.ui.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_moradiaFragment"
+            app:destination="@id/moradiaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/contasFragment"
+        android:name="br.ufc.qxd.arrumaluna.ui.ContasFragment"
+        android:label="fragment_contas"
+        tools:layout="@layout/fragment_contas" />
+    <fragment
+        android:id="@+id/tarefasFragment"
+        android:name="br.ufc.qxd.arrumaluna.ui.TarefasFragment"
+        android:label="fragment_tarefas"
+        tools:layout="@layout/fragment_tarefas" />
+    <fragment
+        android:id="@+id/comprasFragment2"
+        android:name="br.ufc.qxd.arrumaluna.ui.ComprasFragment"
+        android:label="fragment_compras"
+        tools:layout="@layout/fragment_compras" />
+    <fragment
+        android:id="@+id/moradiaFragment"
+        android:name="br.ufc.qxd.arrumaluna.ui.MoradiaFragment"
+        android:label="fragment_moradia"
+        tools:layout="@layout/fragment_moradia" >
+        <action
+            android:id="@+id/action_moradiaFragment_to_comprasFragment2"
+            app:destination="@id/comprasFragment2" />
+        <action
+            android:id="@+id/action_moradiaFragment_to_contasFragment"
+            app:destination="@id/contasFragment" />
+        <action
+            android:id="@+id/action_moradiaFragment_to_tarefasFragment"
+            app:destination="@id/tarefasFragment" />
+    </fragment>
 </navigation>

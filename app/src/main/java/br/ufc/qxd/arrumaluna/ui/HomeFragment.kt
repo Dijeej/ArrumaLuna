@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import androidx.navigation.fragment.findNavController
 import br.ufc.qxd.arrumaluna.R
 import br.ufc.qxd.arrumaluna.databinding.FragmentHomeBinding
 import br.ufc.qxd.arrumaluna.databinding.FragmentRegisterBinding
@@ -56,8 +57,16 @@ class HomeFragment : Fragment() {
 
         arrayAdapter = ArrayAdapter(view.context, android.R.layout.simple_list_item_1, listaCasas)
 
-        binding.recyclerView.adapter = arrayAdapter
+        //binding.recyclerView.adapter = arrayAdapter
 
+        checkClicks()
+
+    }
+
+    private fun checkClicks(){
+        binding.btnCriarMoradia.setOnClickListener{
+            findNavController().navigate(R.id.action_homeFragment_to_moradiaFragment)
+        }
     }
 
 }
